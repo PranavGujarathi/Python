@@ -93,3 +93,72 @@ quets also can be used
 s = "Pranav\"s car"
 print(s)
 
+# Many Values to Multiple Variables
+
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+
+
+# Global Variables
+
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
+
+
+# Setting the Specific Data Type
+# If you want to specify the data type, you can use the following constructor functions:
+
+# Example	Data Type	Try it
+
+x = str("Hello World")	      #  str	
+x = int(20)	                  #  int	
+x = float(20.5)         	 #  float	
+x = complex(1j)	              #complex	
+
+x = list(("apple", "banana", "cherry"))	       #   list	
+x = tuple(("apple", "banana", "cherry"))	    #  tuple	
+x = range(6)	                                 # range
+
+x = dict(name="John", age=36)	                #   dict	
+x = set(("apple", "banana", "cherry"))          #  	set	
+x = frozenset(("apple", "banana", "cherry"))	# frozenset	
+
+x = bool(5)                  # bool	
+x = bytes(5)	             # bytes	
+x = bytearray(5)        	 #bytearray	
+x = memoryview(bytes(5))	 #memoryview	
+
+
+# Python Casting
+# Specify a Variable Type
+
+
+x = int(1)   # x will be 1
+y = int(2.8) # y will be 2
+z = int("3") # z will be 3
+
+
+
+x = float(1)     # x will be 1.0
+y = float(2.8)   # y will be 2.8
+z = float("3")   # z will be 3.0
+w = float("4.2") # w will be 4.2
+
+
+x = str("s1") # x will be 's1'
+y = str(2)    # y will be '2'
+z = str(3.0)  # z will be '3.0'
+
+
+
+
